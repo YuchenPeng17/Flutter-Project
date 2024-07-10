@@ -83,6 +83,59 @@ void main() {
 
 ### 2.3 Load Local Images
 
+- Create `Images` folder at root level
+
+- Activate the `assets` section in the `pubspec.yaml` file
+
+  - ```yaml
+    assets:
+      - images/
+    ```
+
+- Each indentation in `yaml` is 2 spaces
+
+- Use in the `.dart`
+
+  - ```dart
+    child: Image(
+                image: AssetImage(
+                    'images/diamond.png'),
+              ),
+    ```
+
+### 2.4 App Icon
+
+- website: https://www.appicon.co
+  - App Icon Generator 
+
+
+
+- IOS/Android Folder are separately responsible for IOS and Android
+  - android - app - src - main - res (Open In Finder and Replace Corresponding Folder)
+  - ios - Runner - Assets.xcassets (Replace Assets.xcassets)
+
+
+
+- website
+  - canva 
+  - icons8
+
+
+
+### 2.5 !! Deplyment !! Get Back Here in Future
+
+
+
+## 3. Design App with Flutter Layout Widgets
+
+Goal: Build a beautiful business card app.
+
+
+
+
+
+
+
 
 
 

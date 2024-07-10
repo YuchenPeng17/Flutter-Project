@@ -16,8 +16,8 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.gisymbol.com/wp-content/uploads/2017/08/AustralianApple.png'),
+            image: AssetImage(
+                'images/diamond.png'),
           ),
         ),
       ),
