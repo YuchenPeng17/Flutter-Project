@@ -108,13 +108,9 @@ void main() {
 - website: https://www.appicon.co
   - App Icon Generator 
 
-
-
 - IOS/Android Folder are separately responsible for IOS and Android
   - android - app - src - main - res (Open In Finder and Replace Corresponding Folder)
   - ios - Runner - Assets.xcassets (Replace Assets.xcassets)
-
-
 
 - website
   - canva 
@@ -129,6 +125,86 @@ void main() {
 ## 3. Design App with Flutter Layout Widgets
 
 Goal: Build a beautiful business card app.
+
+### 3.1 Hot Reload and Hot Restart
+
+- `stless`: 
+
+```
+class MyApp01 extends StatelessWidget {
+  const MyApp01({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blue,
+        body: Container(),
+      ),
+    );
+  }
+}
+```
+
+### 3.2 Container
+
+- Containers with no children try to be as big as possible
+- Containers with children size themselves to their children. 
+- Wrap up with `SafeArea` widget
+
+### 3.3 Column & Row Widgets 
+
+
+
+
+
+### 3.4 Case
+
+- Circle Avatar
+- Text
+  - Fonts: Google Fonts free for commercial use 
+  - Create `fonts` folder in root level
+- Website
+  - Material Design Color Palette(https://www.materialpalette.com)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
